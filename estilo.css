@@ -1,0 +1,108 @@
+body{
+  background-color: white;
+  background: linear-gradient(skyblue, #d47e1c);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+h1{
+  color: black;
+  text-align: center;
+}
+
+h2{
+  color: aquamarine;
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+}
+
+h4{
+  text-align: center;
+}
+
+h5{
+  text-align: center;
+}
+
+h6{
+  text-align: center;
+}
+
+#f1{
+  color:brown;
+}
+
+.ímpar{
+  color: yellowgreen;
+}
+
+.par{
+  color:blueviolet
+}
+
+#l1{
+  font-family: Comic Neue, Sans-Serif; 
+}
+
+#caixa{
+  width: 250px;
+  height: 200px;
+  font-size: 20px;
+  font-family: Comic Neue, Sans-Serif;
+  background-color: red;
+  text-align: center;
+  border: 10px black solid; 
+  padding: 10px;
+  margin: 1px auto;
+}
+
+#caixa:hover{
+  animation: 5s ease 0s infinite running myColorChange;
+}
+
+@keyframes mySlide{
+  from{margin-left: 0%; }
+  to{margin-left: 100%; }
+}
+
+@keyframes myRotate{
+  100%{transform: rotateZ(360degrees)}
+}
+
+@keyframes myOpacity{
+
+}
+
+@keyframes myScale{
+
+}
+
+@keyframes myColorChange{
+  20%{background-color: orange;}
+  40%{background-color: yellow;}
+  60%{background-color: green;}
+  80%{background-color: blue;}
+  100%{background-color: purple;}
+}
+
+#bt{
+  border: none;
+  height: 200;
+  width: 300;
+  color: black;
+  background-color: black;
+  text-align: center;
+}
+
+table{
+  font-size: 20px;
+  margin: auto;
+}
+
+p{
+  text-align: center;
+}
